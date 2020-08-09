@@ -13,6 +13,7 @@ body {
 	font-size: 16px;
 	font-weight: 400;
 	line-height: 32px;
+	color: #000;
 	background-color: #fff;
 	margin: 0;
 }
@@ -63,4 +64,11 @@ img {
 	height: 1px !important;
 	width: 1px !important;
 	overflow: hidden;
+}
+
+.button {
+	border: none;
+	font-weight: 700;
+	color: #fff;
+	background: #FF9900;
 }

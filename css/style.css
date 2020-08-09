@@ -59,3 +59,33 @@
 }
 
 
+.hero {
+	padding: 103px 78px 91px;
+	background: url('../img/hero-img.jpg') no-repeat;
+}
+
+.hero__title {
+	max-width: 840px;
+	margin-bottom: 32px;
+	font-weight: 800;
+	font-size: 70px;
+	line-height: 86px;
+	color: #fff;
+}
+
+.hero__descr {
+	max-width: 830px;
+	margin-bottom: 97px;
+	font-weight: 700;
+	font-size: 23px;
+	line-height: 29px;
+	color: #fff;
+}
+
+.hero__btn {
+	padding: 25px 37px;
+	font-size: 23px;
+	line-height: 29px;
+}
+
+
