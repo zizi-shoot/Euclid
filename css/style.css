@@ -31,11 +31,9 @@
 }
 
 .header__search {
-	width: 25px;
-	height: 25px;
 	margin-left: 71px;
-	background: url('../img/search-btn.svg') no-repeat;
 	border: none;
+	background: transparent;
 }
 
 .header__burger {
@@ -58,8 +56,8 @@
 	border-radius: 10px;
 }
 
-
 .hero {
+	margin-bottom: 97px;
 	padding: 103px 78px 91px;
 	background: url('../img/hero-img.jpg') no-repeat;
 }
@@ -87,5 +85,20 @@
 	font-size: 23px;
 	line-height: 29px;
 }
+
+.about {}
+
+.about__title {
+	margin-bottom: 10px;
+}
+
+.about__descr {
+	max-width: 1235px;
+}
+
+.tooltip {
+	margin-right: 4px;
+}
+
 
 
