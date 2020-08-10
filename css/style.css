@@ -222,3 +222,38 @@
 	line-height: 20px;
 	border: 1px solid #333333;
 }
+
+.faq {
+
+}
+
+.faq__title {
+	margin-bottom: 27px;
+}
+
+.faq__list {}
+
+.faq__item {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	border-bottom: 1px solid #cacaca;
+}
+
+.faq__item:first-child {
+	border-top: 1px solid #cacaca;
+}
+
+.faq-item__title {
+	padding: 38px 0 44px;
+	font-size: 24px;
+}
+
+.slash {
+	color: #cacaca;
+}
+
+.faq-item__btn {
+	border: none;
+	background: transparent;
+}
