@@ -161,7 +161,6 @@
 	background: url('../img/about-gear.svg') 80px center no-repeat;
 }
 
-
 .working {
 	margin-bottom: 85px;
 }
@@ -224,7 +223,7 @@
 }
 
 .faq {
-
+	margin-bottom: 85px;
 }
 
 .faq__title {
@@ -256,4 +255,98 @@
 .faq-item__btn {
 	border: none;
 	background: transparent;
+}
+
+.footer {
+	margin-top: 85px;
+	background: #222222;
+	color: #cacaca;
+}
+
+.footer__container {
+	display: flex;
+	justify-content: space-between;
+	padding: 48px 0 80px;
+}
+
+.footer__left {
+	max-width: 363px;
+}
+
+.footer__logo {
+	margin-bottom: 6px;
+}
+
+.footer-left__descr {
+	margin-bottom: 44px;
+}
+
+.footer-left__network {
+	display: flex;
+}
+
+.footer-network__item:not(:last-child) {
+	margin-right: 25px;
+}
+
+.facebook {}
+
+.vkontakte {}
+
+.instagram {}
+
+.footer__request {
+	max-width: 580px;
+
+}
+
+.footer-request__title {
+	margin-bottom: 31px;
+}
+
+.footer-request__form {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+}
+
+.request-form__input {
+	margin-bottom: 25px;
+}
+
+.request-form__message {
+	height: 150px;
+	margin-bottom: 31px;
+	resize: none;
+}
+
+.request-form__input,
+.request-form__message {
+	width: 100%;
+	padding: 14px 24px;
+	border: none;
+	line-height: 32px;
+	background: #414141;
+}
+
+.request-form__submit {
+	padding: 20px 52px;
+}
+
+.request-form__accept {}
+
+.footer__right {
+	align-self: center;
+}
+
+.footer-right__list {}
+
+.footer-right__item {
+	font-size: 18px;
+	line-height: 22px;
+	font-weight: 600;
+}
+
+.footer-right__item:not(:last-child) {
+	margin-bottom: 20px;
 }
