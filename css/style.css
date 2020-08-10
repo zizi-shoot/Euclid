@@ -22,9 +22,7 @@
 	display: flex;
 }
 
-.header-nav__item {
-
-}
+.header-nav__item {}
 
 .header-nav__item:not(:last-child) {
 	margin-right: auto;
@@ -163,3 +161,64 @@
 	background: url('../img/about-gear.svg') 80px center no-repeat;
 }
 
+
+.working {
+	margin-bottom: 85px;
+}
+
+.working__title {
+	margin-bottom: 38px;
+}
+
+.working__nav {
+	margin-bottom: 49px;
+}
+
+.working-nav__list {
+	width: 470px;
+	display: flex;
+	justify-content: space-between;
+}
+
+.working-nav__btn {
+	border: none;
+	font-size: 18px;
+	line-height: 22px;
+	background: transparent;
+}
+
+.working__list {}
+
+.working__item {}
+
+.working-item:not(:first-child) {
+	display: none;
+}
+
+.working-item__article {}
+
+.working-item__article:first-child {
+	background: url('../img/work-article.jpg') right no-repeat;
+}
+
+.working-article__title {
+	font-size: 24px;
+}
+
+.working-article__descr {
+	max-width: calc(50% - 127px);
+	margin-bottom: 55px;
+}
+
+.working-article__details {
+	margin-right: 30px;
+	padding: 20px 38px;
+	line-height: 20px;
+}
+
+.working-article__contract {
+	display: inline-block;
+	padding: 20px 38px;
+	line-height: 20px;
+	border: 1px solid #333333;
+}
