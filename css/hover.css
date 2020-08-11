@@ -1,0 +1,57 @@
+.header-nav__item:hover::after {
+	opacity: 1;
+}
+
+.header__search:hover rect {
+	fill: var(--main-color);
+}
+
+.header__search:hover circle {
+	stroke: var(--main-color);
+}
+
+.button:hover {
+	opacity: .6;
+}
+
+.about-principles__details:hover {
+	background-color: var(--main-color);
+}
+
+.working-nav__btn:hover {
+	color: var(--main-color);
+}
+
+.working-article__contract:hover {
+	color: var(--img-font);
+	background-color: #000;
+}
+
+.faq-item__title:hover {
+	color: var(--main-color);
+}
+
+.faq-item__btn:hover ellipse {
+	fill: #d2d2d2;
+}
+
+.faq-item__btn:hover path {
+	fill: #000;
+}
+
+.footer-network__item:hover svg {
+	transform: scale(1.1);
+}
+
+.request-form__accept:hover {
+	color: var(--main-color);
+}
+
+.request-form__accept:hover::before {
+	border-color: var(--main-color);
+	background-color: rgba(255, 153, 0, .1);
+}
+
+.footer-right__item:hover a::before {
+	opacity: 1;
+}

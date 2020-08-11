@@ -2,12 +2,12 @@
 .working-nav__btn:focus,
 .footer-right__item a:focus,
 .footer__logo:focus img {
-	outline: 1px solid var(--orange);
+	outline: 1px solid var(--main-color);
 	outline-offset: 5px;
 }
 
 .header__search:focus {
-	filter: drop-shadow(2px 2px 3px var(--orange));
+	filter: drop-shadow(2px 2px 3px var(--main-color));
 }
 
 .button:focus {
@@ -15,7 +15,7 @@
 }
 
 .about-principles__details:focus {
-	background-color: var(--orange);
+	background-color: var(--main-color);
 }
 
 .working-article__contract:focus {
@@ -24,18 +24,18 @@
 }
 
 .faq-item__btn:focus {
-	filter: drop-shadow(0 0 4px var(--orange));
+	filter: drop-shadow(0 0 4px var(--main-color));
 }
 
 .footer-network__item a:focus {
-	filter: drop-shadow(0 0 2px var(--orange));
+	filter: drop-shadow(0 0 2px var(--main-color));
 }
 
 .request-form__input:focus,
 .request-form__message:focus {
-	outline: 1px solid var(--orange);
+	outline: 1px solid var(--main-color);
 }
 
 .accept-checkbox:focus + .request-form__accept::before {
-	border-color: var(--orange);
+	border-color: var(--main-color);
 }
