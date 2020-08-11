@@ -1,3 +1,5 @@
+
+
 .header {
 	box-shadow: 0px 5px 40px rgba(0, 0, 0, 0.1);
 	padding-top: 16px;
@@ -40,7 +42,6 @@
 .header__search {
 	margin-left: 65px;
 	margin-right: 5px;
-	border: none;
 	background: transparent;
 }
 
@@ -52,8 +53,6 @@
 	padding: 1px 0 2px;
 	margin-left: 96px;
 	background-color: transparent;
-	border: none;
-	outline: none;
 	cursor: pointer;
 }
 
@@ -77,7 +76,7 @@
 	font-size: 70px;
 	line-height: 86px;
 	letter-spacing: .3px;
-	color: #fff;
+	color: var(--img-font);
 }
 
 .hero__descr {
@@ -87,7 +86,7 @@
 	font-size: 23px;
 	line-height: 29px;
 	letter-spacing: .3px;
-	color: #fff;
+	color: var(--img-font);
 }
 
 .hero__btn {
@@ -132,7 +131,7 @@
 	align-items: center;
 	padding: 38px 68px 42px 54px;
 	font-weight: 700;
-	color: #fff;
+	color: var(--img-font);
 	background: rgba(0, 0, 0, 0.2);
 	backdrop-filter: blur(10px);
 }
@@ -144,7 +143,7 @@
 .about-principles__details {
 	margin-top: 3px;
 	padding: 19px 35px 15px;
-	border: 3px solid #ff9900;
+	border: 3px solid var(--orange);
 	line-height: 20px;
 }
 
@@ -154,7 +153,7 @@
 
 .about__article {
 	padding: 71px 100px 60px 300px;
-	border: 1px solid #cacaca;
+	border: 1px solid var(--border-color);
 }
 
 .about-article__title {
@@ -193,7 +192,6 @@
 }
 
 .working-nav__btn {
-	border: none;
 	font-size: 18px;
 	line-height: 22px;
 	background: transparent;
@@ -250,11 +248,11 @@
 	display: flex;
 	justify-content: space-between;
 	align-items: center;
-	border-bottom: 1px solid #cacaca;
+	border-bottom: 1px solid var(--border-color);
 }
 
 .faq__item:first-child {
-	border-top: 1px solid #cacaca;
+	border-top: 1px solid var(--border-color);
 }
 
 .faq-item__title {
@@ -263,18 +261,17 @@
 }
 
 .slash {
-	color: #cacaca;
+	color: var(--border-color);
 }
 
 .faq-item__btn {
-	border: none;
 	background: transparent;
 }
 
 .footer {
 	margin-top: 86px;
 	background: #222222;
-	color: #cacaca;
+	color: var(--footer-font);
 }
 
 .footer__container {
@@ -343,8 +340,8 @@
 .request-form__message {
 	width: 100%;
 	padding: 14px 24px;
-	border: none;
 	line-height: 32px;
+	color: var(--footer-font);
 	background: #414141;
 }
 
@@ -358,7 +355,7 @@
 	opacity: 0;
 }
 
-.accept-checkbox:checked + .request-form__accept::before {
+.accept-checkbox:checked+.request-form__accept::before {
 	background-image: url('../img/checkbox.svg');
 }
 
@@ -367,11 +364,12 @@
 	display: inline-block;
 	width: 14px;
 	height: 14px;
-	border: 1px solid #adb5bd;
+	border: 1px solid var(--footer-font);
 	margin-right: 6px;
 	background-repeat: no-repeat;
 	background-position: center 0;
 }
+
 .footer__right {
 	align-self: center;
 }

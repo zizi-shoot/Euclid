@@ -1,0 +1,40 @@
+.header-nav__item a:focus,
+.working-nav__btn:focus,
+.footer-right__item a:focus {
+	outline: 1px solid var(--orange);
+	outline-offset: 5px;
+}
+
+.header__search:focus {
+	filter: drop-shadow(2px 2px 3px var(--orange));
+}
+
+.button:focus {
+	opacity: .6;
+}
+
+.about-principles__details:focus {
+	background-color: var(--orange);
+}
+
+.working-article__contract:focus {
+	color: var(--img-font);
+	background-color: #000;
+}
+
+.faq-item__btn:focus {
+	filter: drop-shadow(0 0 4px var(--orange));
+}
+
+.footer-network__item a:focus {
+	filter: drop-shadow(0 0 1px var(--orange));
+}
+
+.request-form__input:focus,
+.request-form__message:focus {
+	outline: 1px solid var(--orange);
+}
+
+.accept-checkbox:focus + .request-form__accept::before {
+	border-color: var(--orange);
+}
