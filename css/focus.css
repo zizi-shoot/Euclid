@@ -1,6 +1,7 @@
 .header-nav__item a:focus,
 .working-nav__btn:focus,
-.footer-right__item a:focus {
+.footer-right__item a:focus,
+.footer__logo:focus img {
 	outline: 1px solid var(--orange);
 	outline-offset: 5px;
 }
@@ -27,7 +28,7 @@
 }
 
 .footer-network__item a:focus {
-	filter: drop-shadow(0 0 1px var(--orange));
+	filter: drop-shadow(0 0 2px var(--orange));
 }
 
 .request-form__input:focus,
