@@ -30,6 +30,10 @@
 	background-color: var(--main-color);
 }
 
+.working-nav__item:hover::before {
+	opacity: 1;
+}
+
 .working-nav__btn:hover {
 	color: var(--main-color);
 }
@@ -67,3 +71,5 @@
 .footer-right__item:hover a::before {
 	opacity: 1;
 }
+
+
