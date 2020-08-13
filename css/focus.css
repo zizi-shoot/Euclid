@@ -6,9 +6,12 @@
 	outline-offset: 5px;
 }
 
-.header__search:focus {
+.header__search:focus,
+.header__burger:focus	 {
 	filter: drop-shadow(2px 2px 3px var(--main-color));
 }
+
+
 
 .button:focus {
 	opacity: .6;

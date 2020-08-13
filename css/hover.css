@@ -10,6 +10,18 @@
 	stroke: var(--main-color);
 }
 
+.header__burger:hover .burger__line {
+	background-color: var(--main-color);
+}
+
+.header__burger:hover .line-2 {
+	transform: translateX(5px);
+}
+
+.header__burger:hover .line-3 {
+	transform: translateX(12px);
+}
+
 .button:hover {
 	opacity: .6;
 }
