@@ -261,5 +261,8 @@
 		font-size: 35px;
 	}
 
+	.accept-checkbox {
+		left: 0;
+	}
 
 }

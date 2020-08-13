@@ -254,14 +254,14 @@
 			</ul>
 			<div class="footer__request footer-request">
 				<h2 class="footer-request__title title">Оставить заявку</h2>
-				<form action="https://jsonplaceholder.typicode.com/posts," class="footer-request__form request-form"
+				<form action="https://jsonplaceholder.typicode.com/posts" class="footer-request__form request-form"
 					method="POST" autocomplete="on">
-					<input type="text" name="name" class="request-form__input" placeholder="Фамилия, имя и отчество*">
-					<input type="email" name="email" class="request-form__input" placeholder="E-mail*">
-					<textarea name="message" class="request-form__message" placeholder="Сообщение*"></textarea>
+					<input type="text" name="name" class="request-form__input" placeholder="Фамилия, имя и отчество*" required>
+					<input type="email" name="email" class="request-form__input" placeholder="E-mail*" required>
+					<textarea name="message" class="request-form__message" placeholder="Сообщение*" required></textarea>
 					<button type="submit" class="request-form__submit button">Отправить данные</button>
-					<input type="checkbox" name="accept" id="accept" class="accept-checkbox" required>
-					<label for="accept" class="request-form__accept">Согласен на обработу данных</label>
+					<input type="checkbox" name="accept" id="accept"  class="accept-checkbox" required>
+					<label for="accept" class="request-form__accept">Согласен на обработку данных</label>
 				</form>
 			</div>
 				<ul class="footer__links footer-links">

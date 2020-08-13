@@ -351,6 +351,7 @@
 }
 
 .footer-request__form {
+	position: relative;
 	display: flex;
 	flex-wrap: wrap;
 	justify-content: space-between;
@@ -391,6 +392,8 @@
 	position: absolute;
 	z-index: -1;
 	opacity: 0;
+	left: 50%;
+	bottom: 0;
 }
 
 .accept-checkbox:checked+.request-form__accept::before {
