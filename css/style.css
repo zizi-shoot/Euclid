@@ -48,6 +48,7 @@
 .header__search {
 	margin-left: 65px;
 	margin-right: 5px;
+	padding: 0 6px;
 	background: transparent;
 }
 
@@ -130,6 +131,7 @@
 	display: flex;
 	align-items: flex-end;
 	width: calc(50% - 15px);
+	height: 622px;
 	background: url('../img/principles.jpg') no-repeat;
 }
 
@@ -151,6 +153,7 @@
 
 .about-principles__details {
 	margin-top: 3px;
+	margin-left: 20px;
 	padding: 19px 35px 15px;
 	border: 3px solid var(--main-color);
 	line-height: 20px;
@@ -162,7 +165,8 @@
 }
 
 .about__article {
-	padding: 71px 100px 60px 300px;
+	height: calc(50% - 15px);
+	padding: 8% 0 6% 34.4%;
 	border: 1px solid var(--border-color);
 }
 
@@ -172,15 +176,19 @@
 	line-height: 29px;
 }
 
-.about-article__descr {}
+.about-article__descr {
+	max-width: 452px;
+}
 
 .cube {
-	background: url('../img/about-cube.svg') 80px 42% no-repeat;
 	margin-bottom: 30px;
+	background: url('../img/about-cube.svg') 12% 42% no-repeat;
+	background-size: 23%;
 }
 
 .gear {
-	background: url('../img/about-gear.svg') 80px 35% no-repeat;
+	background: url('../img/about-gear.svg') 12% 35% no-repeat;
+	background-size: 22%;
 }
 
 .working {
@@ -222,6 +230,7 @@
 
 .working-item__article:first-child {
 	background: url('../img/work-article.jpg') right no-repeat;
+	background-size: 49%;
 }
 
 .working-article__title {
@@ -337,7 +346,7 @@
 .instagram {}
 
 .footer__request {
-	max-width: 570px;
+	max-width: calc(30% + 39px);
 }
 
 .footer-request__title {
