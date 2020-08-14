@@ -68,6 +68,6 @@
 	background-color: rgba(255, 153, 0, .1);
 }
 
-.footer-right__item:hover a::before {
+.footer-links__item:hover a::before {
 	opacity: 1;
 }

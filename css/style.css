@@ -1,6 +1,4 @@
 .header {
-	padding-top: 16px;
-	padding-bottom: 13px;
 	box-shadow: 0 5px 40px rgba(0, 0, 0, .1);
 }
 
@@ -8,6 +6,8 @@
 	display: flex;
 	align-items: center;
 	justify-content: space-between;
+	padding-top: 16px;
+	padding-bottom: 13px;
 }
 
 .header__logo {
@@ -53,11 +53,11 @@
 }
 
 .header__search rect {
-	transition: fill .3s
+	transition: fill .3s;
 }
 
 .header__search circle {
-	transition: stroke .3s
+	transition: stroke .3s;
 }
 
 .header__burger {
@@ -84,7 +84,12 @@
 
 .hero {
 	margin-bottom: 97px;
-	padding: 103px 78px 91px;
+}
+
+.hero__container {
+	padding-top: 91px;
+	padding-bottom: 103px;
+	/* padding: 103px 78px 91px; */
 	background: url('../img/hero-img.jpg') 0 50% no-repeat;
 	background-size: cover;
 }
@@ -116,10 +121,13 @@
 }
 
 .about {
+	margin-bottom: 125px;
+}
+
+.about__container {
 	display: flex;
 	flex-wrap: wrap;
 	justify-content: space-between;
-	margin-bottom: 125px;
 }
 
 .about__title {
@@ -256,7 +264,7 @@
 .working-article__contract {
 	display: inline-block;
 	padding: 20px 38px;
-	border: 1px solid #333333;
+	border: 1px solid #333;
 	line-height: 20px;
 	transition: color .5s, background-color .5s;
 }
@@ -292,7 +300,6 @@
 
 .faq-item__btn {
 	background: transparent;
-
 }
 
 .faq-item__btn ellipse,
@@ -303,7 +310,7 @@
 .footer {
 	margin-top: 86px;
 	color: var(--footer-font);
-	background: #222222;
+	background: #222;
 }
 
 .footer__container {
@@ -395,10 +402,6 @@
 	opacity: 0;
 }
 
-.accept-checkbox:checked+.request-form__accept::before {
-	background-image: url('../img/checkbox.svg');
-}
-
 .request-form__accept {
 	transition: color .3s;
 }
@@ -413,6 +416,10 @@
 	background-position: center 0;
 	background-repeat: no-repeat;
 	transition: border-color .2s, background-color .2s;
+}
+
+.accept-checkbox:checked + .request-form__accept::before {
+	background-image: url('../img/checkbox.svg');
 }
 
 .footer__links {

@@ -1,5 +1,4 @@
 @media (max-width: 1200px) {
-
 	.header__logo {
 		width: 150px;
 		margin-right: 49px;
@@ -71,6 +70,9 @@
 
 	.hero {
 		margin-bottom: 61px;
+	}
+
+	.hero__container {
 		padding: 161px 150px 114px 45px;
 		background-position-y: 100%;
 	}
@@ -237,15 +239,6 @@
 
 	.working-article__descr {
 		max-width: 100%;
-	}
-
-	.working-item__article:first-child {
-		background-image: url('../img/work-article.jpg');
-		background-position-y: bottom;
-	}
-
-	.working-article__descr {
-		max-width: 100%;
 		margin-bottom: 21px;
 	}
 
@@ -263,5 +256,4 @@
 	.accept-checkbox {
 		left: 0;
 	}
-
 }
