@@ -11,8 +11,6 @@
 	filter: drop-shadow(2px 2px 3px var(--main-color));
 }
 
-
-
 .button:focus {
 	opacity: .6;
 }
