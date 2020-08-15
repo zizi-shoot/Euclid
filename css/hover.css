@@ -30,11 +30,11 @@
 	background-color: var(--main-color);
 }
 
-.working-nav__item:hover::before {
+.working-switch__item:hover::before {
 	opacity: 1;
 }
 
-.working-nav__btn:hover {
+.working-switch__btn:hover {
 	color: var(--main-color);
 }
 
