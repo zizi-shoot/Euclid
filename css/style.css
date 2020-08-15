@@ -86,10 +86,8 @@
 	margin-bottom: 97px;
 }
 
-.hero__container {
-	padding-top: 91px;
-	padding-bottom: 103px;
-	/* padding: 103px 78px 91px; */
+.hero__wrapper {
+	padding: 103px 78px 91px;
 	background: url('../img/hero-img.jpg') 0 50% no-repeat;
 	background-size: cover;
 }
@@ -217,19 +215,16 @@
 	margin-bottom: 36px;
 }
 
-.working__nav {
-	margin-bottom: 39px;
-}
-
-.working-nav__list {
+.working__switch {
 	display: flex;
 	justify-content: space-between;
 	width: 476px;
+	margin-bottom: 39px;
 	padding-top: 4px;
 	border-top: 3px solid transparent;
 }
 
-.working-nav__btn {
+.working-switch__btn {
 	font-size: 18px;
 	line-height: 22px;
 	background: transparent;
