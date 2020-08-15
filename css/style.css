@@ -344,6 +344,8 @@
 
 .footer__request {
 	max-width: calc(30% + 39px);
+	margin-right: 20px;
+	margin-left: 20px;
 }
 
 .footer-request__title {

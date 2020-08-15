@@ -181,6 +181,7 @@
 	.footer__request {
 		max-width: calc(54% + 35px);
 		margin-right: 30px;
+		margin-left: 0;
 	}
 
 	.request-form__submit {
