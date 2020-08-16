@@ -260,6 +260,22 @@
 	.accept-checkbox {
 		left: 0;
 	}
+
+	.footer__logo {
+		width: 150px;
+	}
+
+	.footer__links {
+		margin-right: 0;
+	}
+
+	.footer-links__item {
+		font-size: 14px;
+	}
+
+	.footer-network__item svg {
+		width: 34px;
+	}
 }
 
 @media (max-width: 576px) {
@@ -339,8 +355,8 @@
 	.about__principles {
 		height: unset;
 		margin-bottom: 36px;
-		padding-top: 208px;
-		background-size: 290px 200px;
+		padding-top: 67vw;
+		background-size: 100%;
 	}
 
 	.about-principles__wrapper {
@@ -503,10 +519,6 @@
 
 	.footer-network__item:not(:last-child) {
 		margin-right: 14px;
-	}
-
-	.footer-network__item svg {
-		width: 34px;
 	}
 
 	.footer__request {
