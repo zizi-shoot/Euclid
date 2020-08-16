@@ -433,9 +433,10 @@
 	}
 
 	.working-item__article:first-child {
+		padding-top: 52vw;
 		padding-bottom: 0;
 		background-position-y: top;
-		background-size: 290px 160px;
+		background-size: 100%;
 	}
 
 	.working-article__title {
