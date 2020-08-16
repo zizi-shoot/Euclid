@@ -3,6 +3,7 @@
 	--border-color: #cacaca;
 	--footer-font: #cacaca;
 	--main-color: #f90;
+	--main-font-color: #333;
 }
 
 html {
@@ -21,7 +22,7 @@ body {
 	font-weight: 400;
 	font-size: 16px;
 	line-height: 32px;
-	color: #333;
+	color: var(--main-font-color);
 	background-color: #fff;
 }
 

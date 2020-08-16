@@ -199,6 +199,11 @@
 }
 
 @media (max-width: 992px) {
+	.container {
+		padding-right: 25px;
+		padding-left: 25px;
+	}
+
 	.header__nav {
 		display: none;
 	}
@@ -254,5 +259,290 @@
 
 	.accept-checkbox {
 		left: 0;
+	}
+}
+
+@media (max-width: 576px) {
+	.container {
+		padding-right: 15px;
+		padding-left: 15px;
+	}
+
+	.header__container {
+		padding-top: 7px;
+		padding-bottom: 7px;
+	}
+
+	.header__logo {
+		width: 97px;
+	}
+
+	.header__search {
+		display: none;
+	}
+
+	.burger__line {
+		width: 25px;
+	}
+
+	.burger__line:not(:last-child) {
+		margin-bottom: 5px;
+	}
+
+	.hero {
+		margin-bottom: 39px;
+	}
+
+	.hero__wrapper {
+		padding: 32px 22px 40px;
+		text-align: center;
+	}
+
+	.hero__title {
+		margin-bottom: 6px;
+		font-size: 20px;
+		line-height: 24px;
+	}
+
+	.hero__descr {
+		margin-bottom: 36px;
+		font-weight: 500;
+		font-size: 12px;
+		line-height: 15px;
+	}
+
+	.hero__btn {
+		padding: 12px 28px 13px;
+		font-size: 12px;
+		line-height: 15px;
+	}
+
+	.title {
+		font-size: 24px;
+		line-height: 29px;
+	}
+
+	.about {
+		margin-bottom: 53px;
+	}
+
+	.about__title {
+		margin-bottom: 2px;
+	}
+
+	.about__descr {
+		margin-bottom: 11px;
+		font-size: 14px;
+		line-height: 28px;
+	}
+
+	.about__principles {
+		height: unset;
+		margin-bottom: 36px;
+		padding-top: 208px;
+		background-size: 290px 200px;
+	}
+
+	.about-principles__wrapper {
+		flex-direction: column;
+		align-items: flex-start;
+		padding: 0;
+		font-weight: 400;
+		font-size: 14px;
+		line-height: 28px;
+		color: inherit;
+		background-color: transparent;
+		backdrop-filter: none;
+	}
+
+	.about-principles__descr {
+		margin-bottom: 8px;
+	}
+
+	.about-principles__details {
+		margin-left: 0;
+		padding: 9px 42px 10px;
+		font-size: 12px;
+		line-height: 15px;
+	}
+
+	.about__article {
+		padding: 66px 0 0;
+		border: none;
+		background-position: left top;
+		background-size: 70px;
+	}
+
+	.about-article__title {
+		margin-bottom: 5px;
+		font-weight: 500;
+		font-size: 18px;
+		line-height: 22px;
+	}
+
+	.about-article__descr {
+		font-size: 14px;
+		line-height: 28px;
+	}
+
+	.cube {
+		margin-bottom: 11px;
+	}
+
+	.gear {
+		padding-top: 70px;
+	}
+
+	.working {
+		margin-bottom: 39px;
+	}
+
+	.working__title {
+		margin-bottom: 23px;
+	}
+
+	.working__switch {
+		width: 100%;
+		margin-bottom: 6px;
+	}
+
+	.working-switch__btn {
+		padding: 0;
+		font-size: 14px;
+		line-height: 17px;
+	}
+
+	.working-item__article {
+		padding-top: 167px;
+	}
+
+	.working-item__article:first-child {
+		padding-bottom: 0;
+		background-position-y: top;
+		background-size: 290px 160px;
+	}
+
+	.working-article__title {
+		margin-bottom: 0;
+		font-weight: 500;
+		font-size: 18px;
+		line-height: 32px;
+	}
+
+	.working-article__descr {
+		margin-bottom: 20px;
+		font-size: 14px;
+		line-height: 28px;
+	}
+
+	.working-article__details,
+	.working-article__contract {
+		font-size: 12px;
+		line-height: 15px;
+	}
+
+	.working-article__details {
+		margin-right: 4.7px;
+		padding: 12px 44px 13px;
+	}
+
+	.working-article__contract {
+		padding: 11px 32px 12px;
+	}
+
+	.faq {
+		margin-bottom: 39px;
+	}
+
+	.faq__title {
+		margin-bottom: 14px;
+	}
+
+	.faq-item:not(:first-child),
+	.faq-item:not(:last-child) {
+		height: 117px;
+	}
+
+	.faq__item:first-child,
+	.faq-item:last-child {
+		height: 91px;
+	}
+
+	.faq-item__title {
+		padding: 0;
+		padding-right: 31px;
+		font-weight: 500;
+		font-size: 14px;
+		line-height: 24px;
+	}
+
+	.faq__item:nth-child(2) .faq-item__title {
+		padding-right: 37px;
+	}
+
+	.faq-item__btn svg {
+		width: 30px;
+	}
+
+	.footer {
+		margin-top: 39px;
+	}
+
+	.footer__container {
+		align-items: center;
+		width: 100%;
+		max-height: unset;
+		padding-top: 29px;
+		padding-bottom: 0;
+	}
+
+	.footer__logo {
+		width: 131px;
+		margin-bottom: 3px;
+	}
+
+	.footer-network__item:not(:last-child) {
+		margin-right: 14px;
+	}
+
+	.footer-network__item svg {
+		width: 34px;
+	}
+
+	.footer__request {
+		width: 100%;
+		max-width: 100%;
+		margin-right: 0;
+	}
+
+	.footer-request__form {
+		flex-direction: column;
+		margin-bottom: 23px;
+		padding-bottom: 24px;
+		border-bottom: 1px solid #595959;
+	}
+
+	.request-form__message {
+		margin-bottom: 24px;
+	}
+
+	.request-form__input::placeholder,
+	.request-form__message::placeholder {
+		font-size: 14px;
+	}
+
+	.request-form__submit {
+		margin-bottom: 13px;
+		padding: 12px 28px;
+		font-size: 12px;
+		line-height: 15px;
+	}
+
+	.request-form__accept {
+		letter-spacing: -.3px;
+	}
+
+	.footer__links {
+		display: none;
 	}
 }
