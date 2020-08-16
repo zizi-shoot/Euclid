@@ -247,7 +247,7 @@
 	}
 
 	.working-item__article:first-child {
-		padding-bottom: 50vw;
+		padding-bottom: 52vw;
 		background-image: url('../img/work-article.jpg');
 		background-position-y: bottom;
 		background-size: 100%;
@@ -347,7 +347,7 @@
 	}
 
 	.about__descr {
-		margin-bottom: 11px;
+		margin-bottom: 4px;
 		font-size: 14px;
 		line-height: 28px;
 	}
