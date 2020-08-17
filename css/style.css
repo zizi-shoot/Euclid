@@ -343,7 +343,7 @@
 }
 
 .footer__request {
-	max-width: calc(30% + 39px);
+	max-width: 29.7vw;
 	margin-right: 20px;
 	margin-left: 20px;
 }
@@ -381,6 +381,8 @@
 }
 
 .request-form__submit {
+	margin-right: 10px;
+	margin-bottom: 13px;
 	padding: 21px 52px;
 }
 
