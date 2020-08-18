@@ -347,7 +347,7 @@
 	}
 
 	.about__descr {
-		margin-bottom: 4px;
+		margin-bottom: 11px;
 		font-size: 14px;
 		line-height: 28px;
 	}
@@ -355,7 +355,8 @@
 	.about__principles {
 		height: unset;
 		margin-bottom: 36px;
-		padding-top: 67vw;
+		padding-top: 71.2%;
+		background-image: url('../img/principles-2.jpg');
 		background-size: 100%;
 	}
 
@@ -545,6 +546,7 @@
 	}
 
 	.request-form__submit {
+		margin-right: 0;
 		padding: 12px 28px;
 		font-size: 12px;
 		line-height: 15px;
