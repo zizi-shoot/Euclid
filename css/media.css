@@ -147,15 +147,6 @@
 		font-size: 20px;
 	}
 
-	.faq__item:not(:first-child) {
-		height: 114px;
-	}
-
-	.faq-item:not(:first-child) .faq-item__title {
-		padding-top: 0;
-		padding-bottom: 0;
-	}
-
 	.faq-item__btn {
 		padding: 10px 0 0;
 	}
@@ -476,18 +467,8 @@
 		margin-bottom: 14px;
 	}
 
-	.faq-item:not(:first-child),
-	.faq-item:not(:last-child) {
-		height: 117px;
-	}
-
-	.faq__item:first-child,
-	.faq-item:last-child {
-		height: 91px;
-	}
-
 	.faq-item__title {
-		padding: 0;
+		padding: 20px 31px 23px 0;
 		padding-right: 31px;
 		font-weight: 500;
 		font-size: 14px;
