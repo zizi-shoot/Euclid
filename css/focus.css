@@ -1,44 +1,12 @@
-@media (min-width: 1025px) {
-	.header-nav__item a:focus,
-	.working-nav__btn:focus,
-	.footer-right__item a:focus,
-	.footer__logo:focus img {
-		outline: 1px solid var(--main-color);
-		outline-offset: 5px;
+@media (pointer: fine) {
+	a:focus,
+	button:focus,
+	input:focus,
+	textarea:focus {
+		outline-color: #0da6fe;
 	}
 
-	.header__search:focus,
-	.header__burger:focus {
-		filter: drop-shadow(2px 2px 3px var(--main-color));
+	.accept-checkbox:focus + .request-form__accept::before {
+		outline: 1px solid #0da6fe;
 	}
-
-	.button:focus {
-		opacity: .6;
-	}
-
-	.about-principles__details:focus {
-		background-color: var(--main-color);
-	}
-
-	.working-article__contract:focus {
-		color: var(--img-font);
-		background-color: #000;
-	}
-
-	.faq-item__btn:focus {
-		filter: drop-shadow(0 0 4px var(--main-color));
-	}
-
-	.footer-network__item a:focus {
-		filter: drop-shadow(0 0 2px var(--main-color));
-	}
-}
-
-.request-form__input:focus,
-.request-form__message:focus {
-	outline: 1px solid var(--main-color);
-}
-
-.accept-checkbox:focus + .request-form__accept::before {
-	border-color: var(--main-color);
 }
