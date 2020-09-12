@@ -88,8 +88,25 @@
 
 .hero__wrapper {
 	padding: 103px 78px 91px;
-	background: url('../img/hero-img.jpg') 0 50% no-repeat;
+}
+
+.swiper-slide {
+	height: unset;
+	background-position: center center;
 	background-size: cover;
+	background-repeat: no-repeat;
+}
+
+.slide-1 {
+	background-image: url('../img/hero-img.jpg');
+}
+
+.slide-2 {
+	background-image: url('../img/hero-img2.jpg');
+}
+
+.slide-3 {
+	background-image: url('../img/hero-img3.jpg');
 }
 
 .hero__title {

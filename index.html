@@ -10,10 +10,16 @@
 	<link rel="stylesheet" href="css/fonts.css">
 	<link rel="stylesheet" href="css/normalize.css">
 	<link rel="stylesheet" href="css/global.css">
+	<link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css">
 	<link rel="stylesheet" href="css/style.css">
 	<link rel="stylesheet" href="css/focus.css">
 	<link rel="stylesheet" href="css/hover.css">
 	<link rel="stylesheet" href="css/media.css">
+
+	<!-- <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.css"> -->
+
+
+
 	<base href="#">
 </head>
 
@@ -48,12 +54,21 @@
 		<h1 class="visually-hidden">Евклид. Проектные системы</h1>
 		<section class="hero">
 			<div class="hero__container container">
-				<div class="hero__wrapper">
-					<h2 class="hero__title">Проектные решения любой сложности</h2>
-					<p class="hero__descr">Есть над чем задуматься: базовые сценарии поведения пользователей и по сей день
-						остаются
-						уделом проектантов</p>
-					<button class="hero__btn button">Заказать расчёт</button>
+				<div class="swiper-container">
+					<div class="swiper-wrapper">
+						<div class="swiper-slide slide-1">
+							<div class="hero__wrapper">
+								<h2 class="hero__title">Проектные решения любой сложности</h2>
+								<p class="hero__descr">Есть над чем задуматься: базовые сценарии поведения пользователей и по сей день
+									остаются
+									уделом проектантов</p>
+								<button class="hero__btn button">Заказать расчёт</button>
+							</div>
+						</div>
+						<div class="swiper-slide slide-2"></div>
+						<div class="swiper-slide slide-3"></div>
+					</div>
+					<div class="swiper-pagination"></div>
 				</div>
 			</div>
 		</section>
@@ -93,7 +108,9 @@
 					</article>
 					<article class="about__article about-article gear">
 						<h3 class="about-article__title">В своём стремлении повысить</h3>
-						<p class="about-article__descr">Качество жизни, они забывают, что сплочённость команды профессионалов&nbsp;представляет собой интересный эксперимент проверки прогресса профессионального сообщества.</p>
+						<p class="about-article__descr">Качество жизни, они забывают, что сплочённость команды
+							профессионалов&nbsp;представляет собой интересный эксперимент проверки прогресса профессионального
+							сообщества.</p>
 					</article>
 				</div>
 			</div>
@@ -101,12 +118,16 @@
 		<section class="working">
 			<div class="working__container container">
 				<h2 class="working__title title">Как мы работаем</h2>
-					<ul class="working__switch working-switch">
-						<li class="working-switch__item"><button class="working-switch__btn" aria-label="первый шаг">1 шаг</button></li>
-						<li class="working-switch__item"><button class="working-switch__btn" aria-label="второй шаг">2 шаг</button></li>
-						<li class="working-switch__item"><button class="working-switch__btn" aria-label="третий шаг">3 шаг</button></li>
-						<li class="working-switch__item"><button class="working-switch__btn" aria-label="четвёртый шаг">4 шаг</button></li>
-					</ul>
+				<ul class="working__switch working-switch">
+					<li class="working-switch__item"><button class="working-switch__btn" aria-label="первый шаг">1 шаг</button>
+					</li>
+					<li class="working-switch__item"><button class="working-switch__btn" aria-label="второй шаг">2 шаг</button>
+					</li>
+					<li class="working-switch__item"><button class="working-switch__btn" aria-label="третий шаг">3 шаг</button>
+					</li>
+					<li class="working-switch__item"><button class="working-switch__btn" aria-label="четвёртый шаг">4 шаг</button>
+					</li>
+				</ul>
 				<ul class="working__list" title="Описание шагов">
 					<li class="working__item working-item">
 						<article class="working-item__article working-article">
@@ -282,6 +303,9 @@
 			</ul>
 		</div>
 	</footer>
+	<script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+		<script src="https://unpkg.com/swiper/swiper-bundle.js"></script>
+	<script src="index.js"></script>
 </body>
 
 </html>
