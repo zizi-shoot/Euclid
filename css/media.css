@@ -305,6 +305,9 @@
 		text-align: center;
 	}
 
+	.swiper-slide {
+		/* height: 208px; */
+	}
 	.hero__title {
 		margin-bottom: 6px;
 		font-size: 20px;
