@@ -298,7 +298,9 @@
 }
 
 .faq__item {
+	position: relative;
 	display: flex;
+	flex-wrap: wrap;
 	align-items: center;
 	justify-content: space-between;
 	border-bottom: 1px solid var(--border-color);
@@ -314,12 +316,43 @@
 	transition: color .3s;
 }
 
+.faq__item div {
+	width: 100%;
+}
+
+.faq-item__descr {
+	max-width: 1003px;
+	font-size: 16px;
+}
+
+.faq-item__descr:first-child {
+	margin-bottom: 50px;
+}
+
 .slash {
 	color: var(--border-color);
 }
 
 .faq-item__btn {
+	position: absolute;
+	top: 30px;
+	right: 0;
+	display: block;
+	width: 50px;
+	height: 50px;
 	background: transparent;
+	transition: transform .5s;
+}
+
+.faq-item__btn button {
+	height: 50px;
+	padding: 0;
+	border-radius: 50%;
+	background-color: transparent;
+}
+
+.faq-item__btn--active {
+	transform: rotate(135deg);
 }
 
 .faq-item__btn ellipse,

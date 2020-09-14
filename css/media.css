@@ -109,6 +109,15 @@
 		margin-bottom: 27px;
 	}
 
+	.faq-item__title {
+		padding-right: 65px;
+	}
+
+	.faq-item__descr {
+		max-width: unset;
+		padding-right: 77px;
+	}
+
 	.footer__links {
 		margin-left: 0;
 	}
@@ -148,7 +157,7 @@
 	}
 
 	.faq-item__btn {
-		padding: 10px 0 0;
+		top: 35px;
 	}
 
 	.footer {
@@ -305,9 +314,6 @@
 		text-align: center;
 	}
 
-	.swiper-slide {
-		/* height: 208px; */
-	}
 	.hero__title {
 		margin-bottom: 6px;
 		font-size: 20px;
@@ -478,12 +484,29 @@
 		line-height: 24px;
 	}
 
+	.faq-item__descr {
+		padding-right: 40px;
+		font-size: 12px;
+	}
+
 	.faq__item:nth-child(2) .faq-item__title {
 		padding-right: 37px;
 	}
 
+	.faq-item__btn {
+		top: 17px;
+		width: 30px;
+		height: 30px;
+	}
+
+	.faq-item__btn button {
+		width: 30px;
+		height: 30px;
+	}
+
 	.faq-item__btn svg {
 		width: 30px;
+		height: 30px;
 	}
 
 	.footer {
