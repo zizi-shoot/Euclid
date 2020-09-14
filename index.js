@@ -1,3 +1,5 @@
+//! Swiper
+
 const mySwiper = new Swiper('.swiper-container', {
 	pagination: {
 		el: '.swiper-pagination',
@@ -5,6 +7,8 @@ const mySwiper = new Swiper('.swiper-container', {
 	},
 });
 mySwiper.setGrabCursor();
+
+//! Accordion
 
 $(() => {
 	const icons = {
@@ -37,4 +41,13 @@ $(() => {
 							</svg>
 						</button>`,
 	);
+});
+
+//! Burger
+
+const burgerBtn = document.querySelector('.burger');
+const burgerMenu = document.querySelector('.burger-nav');
+
+burgerBtn.addEventListener('click', () => {
+	burgerMenu.classList.toggle('burger-nav--active');
 });

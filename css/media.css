@@ -124,7 +124,8 @@
 }
 
 @media (max-width: 1024px) {
-	.header__burger {
+	.header__burger,
+	.burger-nav {
 		display: block;
 	}
 
@@ -212,6 +213,10 @@
 		margin-left: auto;
 	}
 
+	.burger-nav {
+		right: 25px;
+	}
+
 	.title {
 		font-size: 38px;
 	}
@@ -295,6 +300,19 @@
 
 	.header__search {
 		display: none;
+	}
+
+	.burger-nav {
+		right: 15px;
+		font-size: 18px;
+	}
+
+	.burger-nav--active {
+		top: 45px;;
+	}
+
+	.burger-nav__item:not(:last-child)::after {
+		top: 2.5em;
 	}
 
 	.burger__line {

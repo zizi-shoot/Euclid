@@ -1,13 +1,17 @@
 .header {
+	position: relative;
 	box-shadow: 0 5px 40px rgba(0, 0, 0, .1);
 }
 
 .header__container {
+	position: relative;
+	z-index: 10;
 	display: flex;
 	align-items: center;
 	justify-content: space-between;
 	padding-top: 16px;
 	padding-bottom: 13px;
+	background-color: #fff;
 }
 
 .header__logo {
@@ -80,6 +84,44 @@
 
 .burger__line:not(:last-child) {
 	margin-bottom: 7px;
+}
+
+.burger-nav {
+	position: absolute;
+	top: -100vh;
+	right: 50px;
+	z-index: 5;
+	display: none;
+	padding: 25px 40px;
+	border-radius: 0 0 0 20px;
+	font-size: 25px;
+	color: #fff;
+	background-color: var(--main-color);
+	transition: top 1s;
+}
+
+.burger-nav--active {
+	top: 99px;
+}
+
+.burger-nav__item {
+	position: relative;
+	text-align: center;
+}
+
+.burger-nav__item:not(:last-child) {
+	margin-bottom: 25px;
+}
+
+.burger-nav__item:not(:last-child)::after {
+	content: '';
+	position: absolute;
+	top: 1.9em;
+	left: 50%;
+	width: 40px;
+	height: 1px;
+	background-color: #fff;
+	transform: translateX(-50%);
 }
 
 .hero {
