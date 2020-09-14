@@ -1,0 +1,17 @@
+@media (pointer: fine) {
+	a:focus,
+	button:focus,
+	input:focus,
+	textarea:focus {
+		outline-color: #0da6fe;
+	}
+
+	.accept-checkbox:focus + .request-form__accept::before {
+		outline: 1px solid #0da6fe;
+	}
+}
+
+.faq-item__btn button:focus {
+	box-shadow: 0 0 0 2px #0da6fe;
+	outline: none;
+}
