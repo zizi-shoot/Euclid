@@ -11,7 +11,7 @@
 	}
 }
 
-.faq-item__btn button:focus {
+.faq-item__btn:focus {
 	box-shadow: 0 0 0 2px #0da6fe;
 	outline: none;
 }

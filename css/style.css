@@ -79,7 +79,12 @@
 	width: 30px;
 	height: 3px;
 	background-color: var(--main-font-color);
-	transition: background-color .3s, transform .3s;
+	transition: background-color .3s, transform .5s;
+}
+
+.line-1,
+.line-3 {
+	transform-origin: center;
 }
 
 .burger__line:not(:last-child) {
@@ -97,7 +102,7 @@
 	font-size: 25px;
 	color: #fff;
 	background-color: var(--main-color);
-	transition: top 1s;
+	transition: top .5s;
 }
 
 .burger-nav--active {
@@ -358,7 +363,7 @@
 	transition: color .3s;
 }
 
-.faq__item div {
+.accordion-wrapper {
 	width: 100%;
 }
 
@@ -382,15 +387,10 @@
 	display: block;
 	width: 50px;
 	height: 50px;
-	background: transparent;
-	transition: transform .5s;
-}
-
-.faq-item__btn button {
-	height: 50px;
 	padding: 0;
 	border-radius: 50%;
-	background-color: transparent;
+	background: transparent;
+	transition: transform .5s;
 }
 
 .faq-item__btn--active {

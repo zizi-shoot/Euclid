@@ -308,7 +308,7 @@
 	}
 
 	.burger-nav--active {
-		top: 45px;;
+		top: 45px;
 	}
 
 	.burger-nav__item:not(:last-child)::after {
