@@ -323,6 +323,22 @@
 		margin-bottom: 5px;
 	}
 
+	.line-1--active {
+		transform: translateY(8px) rotate(45deg);
+	}
+
+	.line-3--active {
+		transform: translateY(-8px) rotate(-45deg);
+	}
+
+	.header__burger:hover .line-1--active {
+		transform: translateY(8px) rotate(45deg);
+	}
+
+	.header__burger:hover .line-3--active {
+		transform: translateY(-8px) rotate(-45deg);
+	}
+
 	.hero {
 		margin-bottom: 39px;
 	}
