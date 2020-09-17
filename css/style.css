@@ -87,6 +87,18 @@
 	transform-origin: center;
 }
 
+.line-2--active {
+	transform: translateX(100px);
+}
+
+.line-1--active{
+	transform: translateY(10px) rotate(45deg);
+}
+
+.line-3--active {
+	transform: translateY(-10px) rotate(-45deg);
+}
+
 .burger__line:not(:last-child) {
 	margin-bottom: 7px;
 }

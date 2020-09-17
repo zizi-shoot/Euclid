@@ -23,6 +23,17 @@
 		transform: translateX(12px);
 	}
 
+	.header__burger:hover .line-1--active {
+		transform: translateY(10px) rotate(45deg);
+	}
+	.header__burger:hover .line-2--active {
+		transform: translateX(100px);
+	}
+
+	.header__burger:hover .line-3--active {
+		transform: translateY(-10px) rotate(-45deg);
+	}
+
 	.button:hover {
 		opacity: .6;
 	}
