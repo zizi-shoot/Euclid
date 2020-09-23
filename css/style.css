@@ -91,7 +91,7 @@
 	transform: translateX(100px);
 }
 
-.line-1--active {
+.line-1--active{
 	transform: translateY(10px) rotate(45deg);
 }
 
@@ -518,7 +518,8 @@
 	margin-right: 6px;
 	border: 1px solid var(--footer-font);
 	background-position: center 0;
-	background-repeat: no-repeat;
+	background-repeat: no-re ифслпкщгтв-кузуфеЖ тщ-кузуфеж
+peat;
 	transition: border-color .2s, background-color .2s;
 }
 
