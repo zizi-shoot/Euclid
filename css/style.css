@@ -559,6 +559,13 @@
 	transition: transform .3s, -webkit-transform .3s;
 }
 
+.footer-network__item a {
+	display: block;
+	height: -webkit-fit-content;
+	height: -moz-fit-content;
+	height: fit-content;
+}
+
 .footer-network__item:not(:last-child) {
 	margin-right: 25px;
 }
