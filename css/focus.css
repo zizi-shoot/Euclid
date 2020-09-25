@@ -1,17 +1,31 @@
+/*
+* Prefixed by https://autoprefixer.github.io
+* PostCSS: v7.0.29,
+* Autoprefixer: v9.7.6
+* Browsers: last 2 version
+*/
+
 @media (pointer: fine) {
 	a:focus,
 	button:focus,
 	input:focus,
 	textarea:focus {
-		outline-color: #0da6fe;
+		outline: 2px solid #0da6fe;
 	}
 
 	.accept-checkbox:focus + .request-form__accept::before {
 		outline: 1px solid #0da6fe;
 	}
-}
 
-.faq-item__btn:focus {
-	box-shadow: 0 0 0 2px #0da6fe;
-	outline: none;
+	.faq-item__btn:focus {
+		-webkit-box-shadow: 0 0 0 2px #0da6fe;
+		box-shadow: 0 0 0 2px #0da6fe;
+		outline: none;
+	}
+
+	.swiper-pagination-bullet:focus {
+		-webkit-box-shadow: 0 0 0 5px #0da6fe;
+		box-shadow: 0 0 0 5px #0da6fe;
+		opacity: 1;
+	}
 }

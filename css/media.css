@@ -1,3 +1,10 @@
+/*
+* Prefixed by https://autoprefixer.github.io
+* PostCSS: v7.0.29,
+* Autoprefixer: v9.7.6
+* Browsers: last 2 version
+*/
+
 @media (max-width: 1200px) {
 	.container {
 		padding-right: 50px;
@@ -145,6 +152,7 @@
 		height: 3px;
 		background-color: var(--main-color);
 		opacity: 0;
+		-webkit-transition: opacity .3s;
 		transition: opacity .3s;
 	}
 
@@ -164,11 +172,15 @@
 	.footer {
 		align-items: center;
 		margin-top: 63px;
+		-webkit-box-align: center;
+		-ms-flex-align: center;
 	}
 
 	.footer__logo {
 		order: 1;
 		margin-bottom: 18px;
+		-webkit-box-ordinal-group: 2;
+		-ms-flex-order: 1;
 	}
 
 	.footer__descr {
@@ -177,6 +189,8 @@
 
 	.footer__network {
 		order: 3;
+		-webkit-box-ordinal-group: 4;
+		-ms-flex-order: 3;
 	}
 
 	.footer__request {
@@ -192,6 +206,8 @@
 	.footer__links {
 		order: 2;
 		margin: 0 67px 30px 0;
+		-webkit-box-ordinal-group: 3;
+		-ms-flex-order: 2;
 	}
 
 	.footer-links__item:not(:last-child) {
@@ -324,18 +340,22 @@
 	}
 
 	.line-1--active {
+		-webkit-transform: translateY(8px) rotate(45deg);
 		transform: translateY(8px) rotate(45deg);
 	}
 
 	.line-3--active {
+		-webkit-transform: translateY(-8px) rotate(-45deg);
 		transform: translateY(-8px) rotate(-45deg);
 	}
 
 	.header__burger:hover .line-1--active {
+		-webkit-transform: translateY(8px) rotate(45deg);
 		transform: translateY(8px) rotate(45deg);
 	}
 
 	.header__burger:hover .line-3--active {
+		-webkit-transform: translateY(-8px) rotate(-45deg);
 		transform: translateY(-8px) rotate(-45deg);
 	}
 
@@ -395,6 +415,7 @@
 	}
 
 	.about-principles__wrapper {
+		-ms-flex-direction: column;
 		flex-direction: column;
 		align-items: flex-start;
 		padding: 0;
@@ -403,6 +424,11 @@
 		line-height: 28px;
 		color: inherit;
 		background-color: transparent;
+		-webkit-box-orient: vertical;
+		-webkit-box-direction: normal;
+		-webkit-box-align: start;
+		-ms-flex-align: start;
+		-webkit-backdrop-filter: none;
 		backdrop-filter: none;
 	}
 
@@ -553,6 +579,8 @@
 		max-height: unset;
 		padding-top: 29px;
 		padding-bottom: 0;
+		-webkit-box-align: center;
+		-ms-flex-align: center;
 	}
 
 	.footer__logo {
@@ -571,14 +599,37 @@
 	}
 
 	.footer-request__form {
+		-ms-flex-direction: column;
 		flex-direction: column;
 		margin-bottom: 23px;
 		padding-bottom: 24px;
 		border-bottom: 1px solid #595959;
+		-webkit-box-orient: vertical;
+		-webkit-box-direction: normal;
 	}
 
 	.request-form__message {
 		margin-bottom: 24px;
+	}
+
+	.request-form__input::-webkit-input-placeholder,
+	.request-form__message::-webkit-input-placeholder {
+		font-size: 14px;
+	}
+
+	.request-form__input::-moz-placeholder,
+	.request-form__message::-moz-placeholder {
+		font-size: 14px;
+	}
+
+	.request-form__input:-ms-input-placeholder,
+	.request-form__message:-ms-input-placeholder {
+		font-size: 14px;
+	}
+
+	.request-form__input::-ms-input-placeholder,
+	.request-form__message::-ms-input-placeholder {
+		font-size: 14px;
 	}
 
 	.request-form__input::placeholder,
