@@ -29,3 +29,14 @@
 		opacity: 1;
 	}
 }
+
+@media (pointer: coarse) {
+	* {
+		outline: none;
+	}
+
+	input:focus,
+	textarea:focus {
+		outline: 1px solid #0da6fe;
+	}
+}

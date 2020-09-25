@@ -432,6 +432,11 @@
 		backdrop-filter: none;
 	}
 
+	.about__container #principles .about-principles__wrapper::after,
+	.about__container #principles .about-principles__wrapper::before {
+		background-image: none;
+	}
+
 	.about-principles__descr {
 		margin-bottom: 8px;
 	}
@@ -646,6 +651,11 @@
 
 	.request-form__accept {
 		letter-spacing: -.3px;
+	}
+
+	.accept-checkbox {
+		bottom: 8%;
+		left: 24vw;
 	}
 
 	.footer__links {
