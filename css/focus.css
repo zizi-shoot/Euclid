@@ -28,6 +28,12 @@
 		box-shadow: 0 0 0 5px #0da6fe;
 		opacity: 1;
 	}
+
+	.button:focus {
+		-webkit-box-shadow: 0 0 0 5px #0da6fe;
+		box-shadow: 0 0 0 2px #0da6fe;
+		outline: none;
+	}
 }
 
 @media (pointer: coarse) {
